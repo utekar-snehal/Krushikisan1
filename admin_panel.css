@@ -1,0 +1,186 @@
+
+.addproduct{
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: center;
+    font-size:100%;
+}
+
+.addproduct label , .addproduct table tr td label{
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.addproduct input,
+select , .addproduct table tr td input{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addproduct button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.addproduct button[type="reset"] {
+    background-color: #ff0040;
+}
+th{
+    text-transform: capitalize;
+}
+
+
+.product_info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product_info th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.product_info th {
+    background-color: #f2f2f2;
+}
+
+.product_info .btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.product_info .btn-danger {
+    background-color: #d9534f;
+}
+
+.product_info .btn-danger:hover {
+    background-color: #c9302c;
+}
+
+
+.product_info .btn-primary {
+    background-color: #6ee83a;
+}
+
+.product_info .btn-primary:hover {
+    background-color: #01d909;
+}
+
+.product_info h2 {
+    text-align: center;
+}
+
+.login {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(85, 85, 85);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.login-container .signup-link {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.login-container .signup-link:hover {
+    text-decoration: underline;
+}
+.top{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+}
+h2{
+    color:rgb(9, 206, 9);
+    font-size:180%;
+}
+h3{
+    color:rgb(152, 152, 228);
+}
+.date{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: right;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
